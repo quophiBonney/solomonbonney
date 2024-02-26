@@ -50,7 +50,7 @@ const Aboutme = () => {
           </button>
           <Collapse in={open}>
             <p className="p">
-              I am committed to continuous learning and growth. Let's embark on
+              I am committed to continuous learning and growth. Let us embark on
               this journey together and create remarkable experiences that push
               boundaries! 🌟✨ I am focused on delivering exceptional results
               and working collaboratively with any team to achieve our shared
