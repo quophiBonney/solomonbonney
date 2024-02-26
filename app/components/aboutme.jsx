@@ -20,19 +20,19 @@ const Aboutme = () => {
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex-fill h-100 mb-4">
           <h2 className="h-2 mt-5">About Me</h2>
           <p className="p">
-            👋 Hi there! I'm Solomon Kofi Bonney, an alumnus of IPMC College &
+            👋 Hi there! I am Solomon Kofi Bonney, an alumnus of IPMC College &
             Technology. 💪💻 As a hardworking and passionate software developer,
-            I'm dedicated to crafting exceptional projects that leave a lasting
+            I am dedicated to crafting exceptional projects that leave a lasting
             impression. 🚀✨ With a solid skill set in HTML, CSS, Bootstrap,
             Node.js, Javascript, Git & GitHub, React.js, Redux, PHP, MySQL,
             Vite.js, Firebase.
           </p>
           <p className="p">
-            I'm ready to bring your ideas to life and make your digital
+            I am ready to bring your ideas to life and make your digital
             awareness a top-notch that you can increase your sales and engage
             with your customers! 🎉🌟 📚 I believe in constant growth and
             staying up-to-date with the latest developments in the software
-            development world. 🌱 That's why I invest a significant amount of
+            development world. 🌱 That is why I invest a significant amount of
             time and effort into acquiring new skills and staying current with
             the ever-changing demands of this industry. 💡📚 Driven by my motto
             "Following One Course Until Success,"🚀🎯
