@@ -40,7 +40,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="container mt-5" id="contact">
+    <div className="container px-3 mt-5" id="contact">
       <div className="row">
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <div className="flex-fill h-100">

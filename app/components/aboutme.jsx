@@ -15,7 +15,7 @@ const Aboutme = () => {
   }, [open]);
 
   return (
-    <div className="container" id="about-me">
+    <div className="container px-3" id="about-me">
       <div className="row">
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex-fill h-100 mb-4">
           <h2 className="h-2 mt-5">About Me</h2>

@@ -18,7 +18,7 @@ function CustomToggle({ children, eventKey }) {
 
 const Faqs = () => {
   return (
-    <div className="container mt-5" id="faqs">
+    <div className="container px-3 mt-5" id="faqs">
       <h2 className="h-2">FAQs</h2>
       <div className="row">
         <div className="col-12">

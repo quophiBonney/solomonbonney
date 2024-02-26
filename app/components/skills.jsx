@@ -14,7 +14,7 @@ import firebasesvg from "../../public/firebase-svg.svg";
 import wordpresssvg from "../../public/wordpress-svgrepo-com.svg";
 const Skills = () => {
   return (
-    <div className="container mt-5" id="skills">
+    <div className="container px-3 mt-5" id="skills">
       <h2 className="h-2">My Skills</h2>
       <div className="row">
         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-4">
