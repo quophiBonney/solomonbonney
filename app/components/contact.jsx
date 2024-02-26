@@ -1,7 +1,7 @@
 import React from "react";
 import FormValidation from "../validation/formValidation";
 import { Form, ErrorMessage, Field, Formik } from "formik";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import Link from "next/link";
 import {
   BsFacebook,
