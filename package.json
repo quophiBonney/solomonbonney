@@ -9,11 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.1.0",
     "@tsparticles/react": "^3.0.0",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
-    "emailjs-com": "^3.2.0",
     "formik": "^2.4.5",
     "jquery": "^3.7.1",
     "next": "14.1.0",

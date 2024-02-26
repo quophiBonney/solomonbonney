@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { useAccordionButton } from "react-bootstrap/AccordionButton";
-import Card from "react-bootstrap/Card";
-import { SlArrowDown, SlArrowUp } from "react-icons/sl";
 
 function CustomToggle({ children, eventKey }) {
   const decoratedOnClick = useAccordionButton(eventKey, () =>
@@ -28,7 +26,6 @@ const Faqs = () => {
             <>
               <CustomToggle eventKey="0">
                 <h4 className="h-4 fw-bold">
-                  {" "}
                   Are you available for remote job?
                 </h4>
               </CustomToggle>
