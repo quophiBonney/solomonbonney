@@ -35,7 +35,7 @@ const Aboutme = () => {
             development world. 🌱 That is why I invest a significant amount of
             time and effort into acquiring new skills and staying current with
             the ever-changing demands of this industry. 💡📚 Driven by my motto
-            "Following One Course Until Success,"🚀🎯
+            Following One Course Until Success,🚀🎯
           </p>
           <button
             className="p btn btn-light text-black px-3 mb-2 me-3"
