@@ -1,5 +1,5 @@
 import React from "react";
-import quotegenerator from "../../public/QuoteGenerator.png";
+import quotegenerator from "../../public/quotegenerator.png";
 import { BsArrowRight, BsEye } from "react-icons/bs";
 import jssvg from "../../public/javascript.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";
