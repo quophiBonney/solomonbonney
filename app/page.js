@@ -9,6 +9,7 @@ import Skills from "./components/skills";
 import Contact from "./components/contact";
 import Faqs from "./components/faqs";
 import Testimonial from "./components/testimonial";
+import Myworks from "./components/myworks";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,7 @@ export default function Home() {
           <Hero />
           <Aboutme />
           <Skills />
+          <Myworks />
           <Testimonial />
           <Contact />
           <Faqs />

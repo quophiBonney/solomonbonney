@@ -35,7 +35,7 @@
   cursor: pointer;
 }
 .space-out {
-  margin-top: 100px;
+  margin-top: 130px;
 }
 /* About Me Styling */
 .mypic {
@@ -118,11 +118,23 @@
     transform: rotate(9deg);
   }
 }
+/* Projects Stlying */
+.tech-used {
+  width: 40px;
+  height: 40px;
+}
+ul.slick-dots li button {
+  background: #fff;
+  border-radius: 50px;
+}
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .h-1,
   .h-2,
   .h-3 {
     font-size: 1.8rem;
+  }
+  .p {
+    font-size: 1rem;
   }
 }
