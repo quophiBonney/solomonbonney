@@ -130,7 +130,7 @@ ul.slick-dots li button {
 .project-card {
   height: 750px !important;
   background: rgba(0, 0, 0, 0.6) !important;
-  margin-left: 20px;
+  margin-right: 20px;
   color: #fff !important;
 }
 .card-img-top {

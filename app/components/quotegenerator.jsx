@@ -14,7 +14,7 @@ const QuoteGenerator = () => {
     <div className="col-12">
       <div className="card shadow border-0 project-card">
         <Image src={quotepic} alt="" className="img-fluid card-img-top" />
-        <div className="px-1 mt-3">
+        <div className="px-2 mt-3">
           <p className="h-4 fw-bold text-uppercase">Quote Generator</p>
           <div className="px-1 d-flex">
             <Image
@@ -43,7 +43,7 @@ const QuoteGenerator = () => {
               className="img-fluid tech-used m-2"
             />
           </div>
-          <p className="p px-2">
+          <p className="p">
             This platform provides you with million of quotes that inspire you
             and also cause you to achieve greatness in whatever you do. It comes
             with friendly and awesome interface that you can easily find your

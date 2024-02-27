@@ -14,9 +14,9 @@ const Sonobocard = () => {
     <div className="col-12">
       <div className="card shadow border-0 project-card">
         <Image src={sonobo} alt="" className="img-fluid card-img-top" />
-        <div className="px-1 mt-3">
+        <div className="px-2 mt-3">
           <p className="h-4 fw-bold text-uppercase">SONOBO</p>
-          <div className="px-1 d-flex">
+          <div className="d-flex">
             <Image
               src={csssvg}
               alt="an svg for css"
@@ -43,7 +43,7 @@ const Sonobocard = () => {
               className="img-fluid tech-used m-2"
             />
           </div>
-          <p className="p px-2">
+          <p className="p">
             This is a platform built to help Ghanaians know the charges on their
             mobile money withdrawals. Ghana introduced a new charge in the form
             of tax on all mobile money above &#8373;100 called e-levy. The

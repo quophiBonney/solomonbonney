@@ -42,7 +42,11 @@ const Myworks = () => {
     ],
   };
   return (
-    <div className="container space-out" id="projects">
+    <div
+      className="container space-out"
+      id="projects"
+      style={{ overflow: "hidden" }}
+    >
       <h2 className="h-2">Projects</h2>
       <div className="row">
         <Slider {...settings}>
