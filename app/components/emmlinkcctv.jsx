@@ -1,5 +1,5 @@
 import React from "react";
-import quotegenerator from "../../public/QuoteGenerator.png";
+import emmlinkcctv from "../../public/emmlink-cctv.png";
 import { BsArrowRight, BsEye } from "react-icons/bs";
 import jssvg from "../../public/javascript.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";
@@ -9,13 +9,13 @@ import csssvg from "../../public/css-svg.svg";
 import vitesvg from "../../public/vite-svg.svg";
 import Image from "next/image";
 import Link from "next/link";
-const QuoteGenerator = () => {
+const EmmlinkCCTV = () => {
   return (
     <div className="col-12">
       <div className="card shadow border-0 project-card">
-        <Image src={quotegenerator} alt="" className="img-fluid card-img-top" />
+        <Image src={emmlinkcctv} alt="" className="img-fluid card-img-top" />
         <div className="px-3 mt-3">
-          <p className="h-4 fw-bold text-uppercase">Quote Generator</p>
+          <p className="h-4 fw-bold text-uppercase">PH Logistics Ghana</p>
           <div className="px-2 d-flex">
             <Image
               src={csssvg}
@@ -65,4 +65,4 @@ const QuoteGenerator = () => {
   );
 };
 
-export default QuoteGenerator;
+export default EmmlinkCCTV;

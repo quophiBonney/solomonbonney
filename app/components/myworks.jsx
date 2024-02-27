@@ -2,6 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import Sonobocard from "./sonobocard";
 import QuoteGenerator from "./quotegenerator";
+import YTubevideo from "./ytubevideo";
+import PHLogistics from "./phlogistics";
+import EmmlinkTech from "./emmlinktech";
+import EmmlinkCCTV from "./emmlinkcctv";
 const Myworks = () => {
   const settings = {
     dots: true,
@@ -24,9 +28,9 @@ const Myworks = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 2,
-          initialSlide: 2,
+          initialSlide: 1,
         },
       },
       {
@@ -40,20 +44,32 @@ const Myworks = () => {
   };
   return (
     <div className="container space-out" id="projects">
-      <Slider className="row" {...settings}>
-        <div className="col-12 flex-fill h-100 ">
-          <Sonobocard />
-        </div>
-        <div className="col-12 flex-fill h-100 ">
-          <QuoteGenerator />
-        </div>
-        <div className="col-12 flex-fill h-100 ">
-          <Sonobocard />
-        </div>
-        <div className="col-12 flex-fill h-100 ">
-          <QuoteGenerator />
-        </div>
-      </Slider>
+      <h2 className="h-2">Projects</h2>
+      <div className="row">
+        <Slider {...settings}>
+          <>
+            <EmmlinkCCTV />
+          </>
+          <>
+            <EmmlinkTech />
+          </>
+          <>
+            <Sonobocard />
+          </>
+          <>
+            <QuoteGenerator />
+          </>
+          <>
+            <PHLogistics />
+          </>
+          <>
+            <YTubevideo />
+          </>
+          <>
+            <QuoteGenerator />
+          </>
+        </Slider>
+      </div>
     </div>
   );
 };
