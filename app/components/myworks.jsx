@@ -1,7 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 import Sonobocard from "./sonobocard";
-import QuoteGeneratorProject from "./quotegenerator";
 import YTubevideo from "./ytubevideo";
 import PHLogistics from "./phlogistics";
 import EmmlinkTech from "./emmlinktech";
@@ -55,9 +54,6 @@ const Myworks = () => {
           </>
           <>
             <Sonobocard />
-          </>
-          <>
-            <QuoteGeneratorProject />
           </>
           <>
             <PHLogistics />
