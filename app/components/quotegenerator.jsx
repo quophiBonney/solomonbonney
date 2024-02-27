@@ -1,5 +1,5 @@
 import React from "react";
-import quotegenerator from "../../public/quotegenerator.png";
+import quotepic from "../../public/quotepic.png";
 import { BsArrowRight, BsEye } from "react-icons/bs";
 import jssvg from "../../public/javascript.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";
@@ -13,7 +13,7 @@ const QuoteGenerator = () => {
   return (
     <div className="col-12">
       <div className="card shadow border-0 project-card">
-        <Image src={quotegenerator} alt="" className="img-fluid card-img-top" />
+        <Image src={quotepic} alt="" className="img-fluid card-img-top" />
         <div className="px-3 mt-3">
           <p className="h-4 fw-bold text-uppercase">Quote Generator</p>
           <div className="px-2 d-flex">
