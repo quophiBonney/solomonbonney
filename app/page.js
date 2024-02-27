@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import AOS from "aos";
 import Aboutme from "./components/aboutme";
 import Hero from "./components/hero";
 import Preloader from "./components/preloader";
@@ -14,6 +15,7 @@ import Myworks from "./components/myworks";
 export default function Home() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
+    AOS.init();
     setTimeout(() => {
       setLoading(false);
     }, 1000);

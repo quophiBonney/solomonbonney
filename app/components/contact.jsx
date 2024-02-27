@@ -46,9 +46,18 @@ const Contact = () => {
     }
   };
   return (
-    <div className="container px-3 space-out" id="contact">
+    <div
+      className="container px-3 space-out"
+      id="contact"
+      style={{ overflow: "hidden" }}
+    >
       <div className="row">
-        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div
+          className="col-xs-12 col-sm-12 col-md-6 col-lg-6"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
           <div className="flex-fill h-100">
             <Formik
               onSubmit={handleSubmit}
@@ -161,7 +170,12 @@ const Contact = () => {
             </Formik>
           </div>
         </div>
-        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4">
+        <div
+          className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
           <div className="flex-fill h-100">
             <p className="p fw-bold mt-5">Contact Me</p>
             <h3 className="h-3">Get intouch for more information</h3>
@@ -191,7 +205,7 @@ const Contact = () => {
                 <BsWhatsapp size={20} className="" />
               </Link>
               <Link
-                href="https://linkedin.com/in/solomon-bonney-7921"
+                href="https://linkedin.com/in/solomon-bonney-7911a8220"
                 title="linkedin"
                 className="text-light text-decoration-none"
               >

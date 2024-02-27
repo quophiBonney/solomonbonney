@@ -25,15 +25,18 @@ const Hero = () => {
   return (
     <div className="container-fluid px-3 hero-section" id="hero">
       <div className="vh-100 justify-content-center align-items-center row">
-        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-10 text-center">
-          <p className="p mb-3">
+        <div
+          className="col-xs-12 col-sm-12 col-md-12 col-lg-10 text-center"
+          style={{ overflow: "hidden" }}
+        >
+          <p className="p mb-3 animate__animated animate__rollIn">
             Join Me As We Make The World Beautiful Through Seamless Projects
           </p>
-          <h1 className="h-1 mb-3 text-primary">
+          <h1 className="h-1 mb-3 text-primaryanimate__animated animate__bounce">
             {text}
             <Cursor />
           </h1>
-          <p className="p">
+          <p className="p animate__animated animate__zoomInUp">
             I am a software developer specialized in building unique and
             brilliant websites and mobile apps to meet the expectations of
             clients, employers and users. I am focused on building responsive
@@ -56,7 +59,7 @@ const Hero = () => {
               <BsWhatsapp size={20} className="" />
             </Link>
             <Link
-              href="https://linkedin.com/in/solomon-bonney-7921"
+              href="https://linkedin.com/in/solomon-bonney-7911a8220"
               className="text-light text-decoration-none"
               title="linkedin"
             >

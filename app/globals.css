@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+:root {
+  --animate-duration: 1000ms;
+  --animate-delay: 1.3s;
+}
 
 .body {
   font-family: "Poppins", sans-serif;

@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import solomonbonney from "../../public/mypic.webp";
+import { toast } from "react-toastify";
 import { Collapse } from "react-bootstrap";
 const Aboutme = () => {
   const [open, setOpen] = useState(false);
@@ -14,10 +15,22 @@ const Aboutme = () => {
     }
   }, [open]);
 
+  const handleResumeResponse = () => {
+    toast.success("It is under development 🌟");
+  };
   return (
-    <div className="container px-3" id="about-me">
+    <div
+      className="container px-3"
+      id="about-me"
+      style={{ overflow: "hidden" }}
+    >
       <div className="row">
-        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex-fill h-100 mb-4">
+        <div
+          className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex-fill h-100 mb-4"
+          data-aos="slide-right"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
           <h2 className="h-2 mt-5">About Me</h2>
           <p className="p">
             👋 Hi there! I am Solomon Kofi Bonney, an alumnus of IPMC College &
@@ -45,7 +58,10 @@ const Aboutme = () => {
           >
             {btnCaption}
           </button>
-          <button className="p btn btn-outline-light px-3 mb-2">
+          <button
+            className="p btn btn-outline-light px-3 mb-2"
+            onClick={handleResumeResponse}
+          >
             Download Resume
           </button>
           <Collapse in={open}>
@@ -60,7 +76,12 @@ const Aboutme = () => {
             </p>
           </Collapse>
         </div>
-        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex-fill">
+        <div
+          className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex-fill"
+          data-aos="slide-left"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
           <Image
             src={solomonbonney}
             alt="image of solomon bonney from Ghana"

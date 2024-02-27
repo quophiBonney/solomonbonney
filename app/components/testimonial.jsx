@@ -7,10 +7,19 @@ import mypic from "../../public/mypic.webp";
 const testimonial = () => {
   return (
     <>
-      <div className="container space-out" id="testimonial">
+      <div
+        className="container space-out"
+        id="testimonial"
+        style={{ overflow: "hidden" }}
+      >
         <h2 className="h-2">Testimonial</h2>
         <div className="row">
-          <div className="col-12 mb-5">
+          <div
+            className="col-12 mb-5"
+            data-aos="zoom-out"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
             <AwesomeSlider
               cssModule={AwesomeSliderStyles}
               organicArrows={false}
