@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import Sonobocard from "./sonobocard";
-import QuoteGenerator from "./quotegenerator";
+import QuoteGeneratorProject from "./quotegenerator";
 import YTubevideo from "./ytubevideo";
 import PHLogistics from "./phlogistics";
 import EmmlinkTech from "./emmlinktech";
@@ -57,16 +57,13 @@ const Myworks = () => {
             <Sonobocard />
           </>
           <>
-            <QuoteGenerator />
+            <QuoteGeneratorProject />
           </>
           <>
             <PHLogistics />
           </>
           <>
             <YTubevideo />
-          </>
-          <>
-            <QuoteGenerator />
           </>
         </Slider>
       </div>
