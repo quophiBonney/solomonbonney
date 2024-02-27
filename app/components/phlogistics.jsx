@@ -14,9 +14,9 @@ const PHLogistics = () => {
     <div className="col-12">
       <div className="card shadow border-0 project-card">
         <Image src={phlogistics} alt="" className="img-fluid card-img-top" />
-        <div className="px-3 mt-3">
+        <div className="px-1 mt-3">
           <p className="h-4 fw-bold text-uppercase">PH Logistics Ghana</p>
-          <div className="px-2 d-flex">
+          <div className="px-1 d-flex">
             <Image
               src={csssvg}
               alt="an svg for css"
