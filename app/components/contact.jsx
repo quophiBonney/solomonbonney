@@ -11,9 +11,12 @@ import {
   BsTiktok,
   BsGithub,
 } from "react-icons/bs";
+import { toast } from "react-toastify";
+
 const Contact = () => {
   const initialValues = {
-    name: "",
+    firstName: "",
+    lastName: "",
     email: "",
     phone: "",
     message: "",
@@ -22,7 +25,8 @@ const Contact = () => {
     try {
       const templateParams = {
         to: "Receipient Name",
-        name: values.name,
+        firstName: values.firstName,
+        lastName: values.lastName,
         email: values.email,
         phone: values.phone,
         message: values.message,
@@ -34,13 +38,15 @@ const Contact = () => {
         templateParams,
         "eWajEKtVogHGSP8cC"
       );
+      toast.success("Message sent, will get back shortly!");
       resetForm();
     } catch (error) {
+      toast.error("Message send failed, try again!");
       console.error(error.message);
     }
   };
   return (
-    <div className="container px-3 mt-5" id="contact">
+    <div className="container px-3 space-out" id="contact">
       <div className="row">
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <div className="flex-fill h-100">
@@ -51,20 +57,38 @@ const Contact = () => {
             >
               <Form>
                 <div className="form-group mb-3">
-                  <label htmlFor="name">
-                    Full Name<sup className="text-danger p">*</sup>
+                  <label htmlFor="first name">
+                    First Name<sup className="text-danger p">*</sup>
                   </label>
                   <br />
                   <Field
                     className="form-control p-3"
                     type="text"
-                    name="name"
-                    id="name"
-                    placeholder="John Doe"
+                    name="firstName"
+                    id="firstName"
+                    placeholder="John"
                   />
                   <ErrorMessage
                     component="div"
-                    name="name"
+                    name="firstName"
+                    className="text-danger p"
+                  />
+                </div>
+                <div className="form-group mb-3">
+                  <label htmlFor="last name">
+                    Last Name<sup className="text-danger p">*</sup>
+                  </label>
+                  <br />
+                  <Field
+                    className="form-control p-3"
+                    type="text"
+                    name="lastName"
+                    id="lastName"
+                    placeholder="Doe"
+                  />
+                  <ErrorMessage
+                    component="div"
+                    name="lastName"
                     className="text-danger p"
                   />
                 </div>
@@ -139,8 +163,13 @@ const Contact = () => {
         </div>
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4">
           <div className="flex-fill h-100">
-            <p className="p fw-bold mt-5">Contact Us</p>
+            <p className="p fw-bold mt-5">Contact Me</p>
             <h3 className="h-3">Get intouch for more information</h3>
+            <div className="hand-shake mt-3 mb-3">
+              <span className="h-2">👋</span>
+              <span className="h-2">👋</span>
+              <span className="h-2">👋</span>
+            </div>
             <p className="p">
               A more flexible and convenient solution to your security and
               surveillance challenges is just a step away. Get intouch with our

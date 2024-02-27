@@ -8,13 +8,14 @@ import Footer from "./components/footer";
 import Skills from "./components/skills";
 import Contact from "./components/contact";
 import Faqs from "./components/faqs";
+import Testimonial from "./components/testimonial";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 1000);
   }, []);
   return (
     <>
@@ -26,8 +27,9 @@ export default function Home() {
           <Hero />
           <Aboutme />
           <Skills />
-          <Faqs />
+          <Testimonial />
           <Contact />
+          <Faqs />
           <Footer />
         </>
       )}

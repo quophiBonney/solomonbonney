@@ -34,6 +34,9 @@
 .navlink:hover {
   cursor: pointer;
 }
+.space-out {
+  margin-top: 100px;
+}
 /* About Me Styling */
 .mypic {
   border-radius: 10% 0% 10% 0%/10% 0% 10% 0%;
@@ -81,11 +84,45 @@
     transform: rotate(360deg);
   }
 }
+/* Testimonial */
+.testimonial-img {
+  border-radius: 100px;
+  width: 100px !important;
+  height: 100px !important;
+  border: 5px solid lavender;
+}
+.my-slider {
+  height: 400px; /* Default height for small screens */
+
+  @media screen and (min-width: 768px) {
+    height: 600px; /* Adjust height for medium screens */
+  }
+
+  @media screen and (min-width: 992px) {
+    height: 500px; /* Adjust height for large screens */
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: 400px; /* Adjust height for extra-large screens */
+  }
+}
+/* Contact Styling */
+.hand-shake {
+  animation: handShake 1s infinite alternate;
+}
+@keyframes handShake {
+  from {
+    transform: rotate(1deg);
+  }
+  to {
+    transform: rotate(9deg);
+  }
+}
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .h-1,
   .h-2,
   .h-3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }

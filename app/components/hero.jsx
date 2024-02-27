@@ -29,7 +29,7 @@ const Hero = () => {
           <p className="p mb-3">
             Join Me As We Make The World Beautiful Through Seamless Projects
           </p>
-          <h1 className="h-1 mb-3">
+          <h1 className="h-1 mb-3 text-primary">
             {text}
             <Cursor />
           </h1>

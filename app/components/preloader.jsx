@@ -10,8 +10,8 @@ const Preloader = () => {
             src={loader}
             className="img-fluid"
             alt="loading gif"
-            width={70}
-            height={70}
+            width={75}
+            height={75}
           />
           <div className="mt-3">
             <small>

@@ -76,7 +76,8 @@ function Navigation() {
             </Link>
             <Link
               to="testimonial"
-              smooth
+              smooth={true}
+              offset={-95}
               duration={500}
               onClick={handleLinkClick}
               className="m-2 navlink text-light text-decoration-none"
