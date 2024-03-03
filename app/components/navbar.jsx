@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { PiCodeBold } from "react-icons/pi";
 import { HiMenuAlt3 } from "react-icons/hi";
 function Navigation() {
   const handleLinkClick = () => {
@@ -14,7 +15,9 @@ function Navigation() {
       <Container>
         <Navbar.Brand href="/">
           <div>
-            <p className="text-dark logo">Kofi</p>
+            <p className="text-light logo fw-bold">
+              <PiCodeBold size={30} /> Kofi
+            </p>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle

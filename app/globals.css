@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rowdies:wght@300;400;700&display=swap");
 :root {
   --animate-duration: 1000ms;
   --animate-delay: 1.3s;
@@ -29,6 +30,11 @@
 .navbar-bg {
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(5px);
+}
+.logo {
+  font-size: 25px;
+  margin-top: 15px;
+  font-family: "Great Vibes", cursive;
 }
 .toggleIcon {
   color: #fff;
@@ -123,6 +129,7 @@
   }
 }
 /* Projects Stlying */
+
 .tech-used {
   width: 40px;
   height: 40px;
@@ -132,10 +139,11 @@ ul.slick-dots li button {
   border-radius: 50px;
 }
 .project-card {
-  height: 750px !important;
-  background: rgba(0, 0, 0, 0.6) !important;
+  min-height: 750px;
+  background: rgba(255, 255, 255, 0.1) !important;
   margin-right: 20px;
   color: #fff !important;
+  margin-bottom: 10px;
 }
 .card-img-top {
   content: "";
