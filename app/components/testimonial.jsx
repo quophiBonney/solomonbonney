@@ -1,6 +1,5 @@
 import React from "react";
 import AwesomeSlider from "react-awesome-slider";
-import AwesomeSliderStyles from "react-awesome-slider/src/styled/fall-animation/fall-animation.scss";
 import { BiSolidQuoteLeft, BiSolidQuoteRight } from "react-icons/bi";
 import Image from "next/image";
 import mypic from "../../public/mypic.webp";
@@ -21,7 +20,6 @@ const testimonial = () => {
             data-aos-delay="100"
           >
             <AwesomeSlider
-              cssModule={AwesomeSliderStyles}
               organicArrows={false}
               className="my-slider"
             >

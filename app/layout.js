@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "animate.css";
 import "aos/dist/aos.css";
+import { GoogleAnalytics } from '@next/third-parties/google'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <ToastContainer />
         {children}
       </body>
+      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}/>
     </html>
   );
 }
