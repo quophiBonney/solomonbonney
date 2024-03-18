@@ -13,12 +13,10 @@ import Link from "next/link";
 const Hero = () => {
   const text = Typewriter({
     words: [
-      "Hi, I'm Bonney ...👋",
-      "A Front-end Developer...💻",
-      "A Back-end Developer...🚀",
-      "A Content Writer...📚",
-      "I Aim At Client's Satisfaction...😊",
-      "I Bridge Design & Code...🎯",
+      "Front-end Developer...💻",
+      "Back-end Developer...🚀",
+      "Content Writer...📚",
+      "Content Creator...👋",
     ],
     loop: true,
   });
@@ -26,24 +24,24 @@ const Hero = () => {
     <div className="container-fluid px-3 hero-section" id="hero">
       <div className="vh-100 justify-content-center align-items-center row">
         <div
-          className="col-xs-12 col-sm-12 col-md-12 col-lg-10 text-center"
+          className="col-xs-12 col-sm-12 col-md-12 col-lg-10 text-center text-light space-out"
           style={{ overflow: "hidden" }}
         >
-          <p className="p mb-3 animate__animated animate__rollIn">
-            Join Me As We Make The World Beautiful Through Seamless Projects
+          <p className="p mb-3 animate__animated animate__rollIn space-out">
+            Hi👋, I'm Solomon Kofi Bonney
           </p>
           <h1 className="h-1 mb-3 text-primaryanimate__animated animate__bounce">
-            {text}
-            <Cursor />
+            Passionate {text} <Cursor />
           </h1>
           <p className="p animate__animated animate__zoomInUp">
             I am a software developer specialized in building unique and
             brilliant websites and mobile apps to meet the expectations of
             clients, employers and users. I am focused on building responsive
             front-end applications while consistently learning back-end
-            technologies and its architecture.
+            technologies and its architecture. I create, design, build and write
+            innovative web solutions and content.
           </p>
-          <div className="mt-4">
+          <div className="mt-4 mb-5">
             <Link
               href="https://wwww.facebook.com"
               className="text-light text-decoration-none"

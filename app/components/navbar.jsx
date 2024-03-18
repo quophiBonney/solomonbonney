@@ -15,8 +15,8 @@ function Navigation() {
       <Container>
         <Navbar.Brand href="/">
           <div>
-            <p className="text-light logo fw-bold">
-              <PiCodeBold size={30} /> Kofi
+            <p className="text-light logo fw-bold text-uppercase">
+              <PiCodeBold size={30} /> Bonney
             </p>
           </div>
         </Navbar.Brand>
@@ -27,13 +27,7 @@ function Navigation() {
           style={{ border: "0px", margin: "0px" }}
         >
           <span>
-            <HiMenuAlt3
-              className="toggleIcon"
-              // style={{
-              //   width: "1.6em",
-              //   height: "1.6em",
-              // }}
-            />
+            <HiMenuAlt3 className="toggleIcon" />
           </span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">

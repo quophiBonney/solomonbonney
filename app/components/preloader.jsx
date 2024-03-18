@@ -5,7 +5,7 @@ const Preloader = () => {
   return (
     <div className="container-fluid">
       <div className="row vh-100 bg-black justify-content-center align-items-center">
-        <div className="col-12 text-center">
+        <div className="col-12 text-center text-light">
           <Image
             src={loader}
             className="img-fluid"

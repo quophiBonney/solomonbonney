@@ -43,16 +43,6 @@ const Sonobocard = () => {
               className="img-fluid tech-used m-2"
             />
           </div>
-          <p className="p">
-            This is a platform built to help Ghanaians know the charges on their
-            mobile money withdrawals. Ghana introduced a new charge in the form
-            of tax on all mobile money above &#8373;100 called e-levy. The
-            introduction of this e-levy brought a lot of confusion so I decided
-            to curb the situation. During the building of this project, I really
-            came to understood the workings of framer motion, useEffect and
-            useState hooks. I also got the chance to enrich my user interface
-            skills.
-          </p>
           <Link
             href=""
             className="btn btn-primary text-light text-decoration-none mt-3 mb-4"

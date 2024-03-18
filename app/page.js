@@ -11,6 +11,7 @@ import Contact from "./components/contact";
 import Faqs from "./components/faqs";
 import Testimonial from "./components/testimonial";
 import Myworks from "./components/myworks";
+import Experience from "./components/experience";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -28,6 +29,7 @@ export default function Home() {
         <>
           <Navigation />
           <Hero />
+          <Experience />
           <Aboutme />
           <Skills />
           <Myworks />

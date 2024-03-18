@@ -42,26 +42,28 @@ const Myworks = () => {
     ],
   };
   return (
-    <div className="container space-out" id="projects">
-      <h2 className="h-2">Projects</h2>
-      <div className="row">
-        <Slider {...settings}>
-          <>
-            <EmmlinkCCTV />
-          </>
-          <>
-            <EmmlinkTech />
-          </>
-          <>
-            <Sonobocard />
-          </>
-          <>
-            <PHLogistics />
-          </>
-          <>
-            <YTubevideo />
-          </>
-        </Slider>
+    <div className="container-fluid" id="projects">
+      <div className="container">
+        <div className="row">
+          <h2 className="h-2 text-light">Projects</h2>
+          <Slider {...settings}>
+            <>
+              <EmmlinkCCTV />
+            </>
+            <>
+              <EmmlinkTech />
+            </>
+            <>
+              <Sonobocard />
+            </>
+            <>
+              <PHLogistics />
+            </>
+            <>
+              <YTubevideo />
+            </>
+          </Slider>
+        </div>
       </div>
     </div>
   );

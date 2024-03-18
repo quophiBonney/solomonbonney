@@ -1,22 +1,24 @@
 import React from "react";
-import ytube from "../../public/youtube.png";
-import { BsArrowRight, BsEye } from "react-icons/bs";
 import jssvg from "../../public/javascript.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";
 import reactsvg from "../../public/react-svg.svg";
-import githubsvg from "../../public/github-142-svgrepo-com.svg";
 import csssvg from "../../public/css-svg.svg";
 import vitesvg from "../../public/vite-svg.svg";
 import Image from "next/image";
-import Link from "next/link";
-const YTubevideo = () => {
+const Experience = () => {
   return (
-    <div className="col-12">
-      <div className="card shadow border-0 project-card">
-        <Image src={ytube} alt="" className="img-fluid card-img-top" />
-        <div className="px-2 mt-3">
-          <p className="h-4 fw-bold text-uppercase">Youtube Video Fetcher</p>
-          <div className="d-flex">
+    <div className="container-fluid shadow experience">
+      <div className="container">
+        <div className="row">
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-light d-flex align-items-center text-center">
+            <h1 className="fs-1 fw-bold me-2">3+</h1>
+            <p className="p text-uppercase">YEARS OF EXPERIENCE</p>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 flex-fill h-100 d-flex py-2 text-light align-items-center text-center">
+            <h1 className="fs-1 fw-bold me-2">15+</h1>
+            <p className="p text-uppercase">PROJECTS COMPLETED</p>
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 flex-fill h-100 d-flex py-2">
             <Image
               src={csssvg}
               alt="an svg for css"
@@ -37,23 +39,11 @@ const YTubevideo = () => {
               alt="an svg for react"
               className="img-fluid tech-used m-2"
             />
-            <Image
-              src={jssvg}
-              alt="svg for javascript"
-              className="img-fluid tech-used m-2"
-            />
           </div>
-          <Link
-            href=""
-            className="btn btn-primary text-light text-decoration-none mt-3 mb-4"
-            target="_blank"
-          >
-            View Demo <BsEye />
-          </Link>
         </div>
       </div>
     </div>
   );
 };
 
-export default YTubevideo;
+export default Experience;
