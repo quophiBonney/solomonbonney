@@ -85,7 +85,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className="form-group mb-3">
-                    <label htmlFor="last name" className="text-light">
+                    <label htmlFor="last name" className="text-light mt-2">
                       Last Name<sup className="text-danger p">*</sup>
                     </label>
                     <br />
@@ -190,7 +190,7 @@ const Contact = () => {
                 surveillance challenges is just a step away. Get intouch with
                 our security experts and let us know how we can help you
               </p>
-              <div className="mt-4">
+              <div className="mt-4 mb-5">
                 <Link
                   href="https://wwww.facebook.com"
                   className="text-light text-decoration-none"

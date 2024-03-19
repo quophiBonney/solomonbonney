@@ -13,10 +13,10 @@ import Link from "next/link";
 const Hero = () => {
   const text = Typewriter({
     words: [
-      "Front-end Developer...💻",
-      "Back-end Developer...🚀",
-      "Content Writer...📚",
-      "Content Creator...👋",
+      "Front-end Developer..💻",
+      "Back-end Developer..🚀",
+      "Content Writer..📚",
+      "Content Creator..👋",
     ],
     loop: true,
   });
@@ -27,11 +27,11 @@ const Hero = () => {
           className="col-xs-12 col-sm-12 col-md-12 col-lg-10 text-center text-light space-out"
           style={{ overflow: "hidden" }}
         >
-          <p className="p mb-3 animate__animated animate__rollIn space-out">
+          <p className="p mb-3 animate__animated animate__rollIn mt-5">
             Hi👋, I am Solomon Kofi Bonney
           </p>
           <h1 className="h-1 mb-3 text-primaryanimate__animated animate__bounce">
-            Passionate {text} <Cursor />
+            Ardent {text} <Cursor />
           </h1>
           <p className="p animate__animated animate__zoomInUp">
             I am a software developer specialized in building unique and

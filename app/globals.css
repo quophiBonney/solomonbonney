@@ -29,9 +29,10 @@
   backdrop-filter: blur(5px);
 }
 .logo {
-  font-size: 20px;
-  margin-top: 15px;
+  font-size: 18px;
+  margin-top: 10px;
   font-family: "Poppins", sans-serif;
+  font-weight: 800;
 }
 .toggleIcon {
   color: #fff;
@@ -185,5 +186,8 @@ ul.slick-dots li button {
   }
   .p {
     font-size: 1rem;
+  }
+  .project-card {
+    width: 100%;
   }
 }

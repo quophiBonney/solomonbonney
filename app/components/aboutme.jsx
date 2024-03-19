@@ -83,7 +83,7 @@ const Aboutme = () => {
             <Image
               src={solomonbonney}
               alt="image of solomon bonney from Ghana"
-              className="img-fluid h-100 mypic mt-5"
+              className="img-fluid w-100 h-100 mypic mt-3 mb-5"
             />
           </div>
         </div>

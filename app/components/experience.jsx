@@ -10,15 +10,15 @@ const Experience = () => {
     <div className="container-fluid shadow experience">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-light d-flex align-items-center text-center">
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-light d-flex align-items-center text-center mt-3">
             <h1 className="fs-1 fw-bold me-2">3+</h1>
             <p className="p text-uppercase">YEARS OF EXPERIENCE</p>
           </div>
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 flex-fill h-100 d-flex py-2 text-light align-items-center text-center">
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 flex-fill h-100 d-flex py-2 text-light align-items-center text-center mt-3">
             <h1 className="fs-1 fw-bold me-2">15+</h1>
             <p className="p text-uppercase">PROJECTS COMPLETED</p>
           </div>
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 flex-fill h-100 d-flex py-2">
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 flex-fill h-100 d-flex py-2 mb-4">
             <Image
               src={csssvg}
               alt="an svg for css"
