@@ -32,7 +32,7 @@ export default function Home() {
           <Experience />
           <Aboutme />
           <Skills />
-
+          <Myworks />
           <Testimonial />
           <Contact />
           <Faqs />

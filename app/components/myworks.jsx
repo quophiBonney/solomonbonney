@@ -25,6 +25,7 @@ const Myworks = () => {
           slidesToScroll: 3,
           infinite: true,
           dots: true,
+          arrows: true,
         },
       },
       {
@@ -33,6 +34,8 @@ const Myworks = () => {
           slidesToShow: 1,
           slidesToScroll: 2,
           initialSlide: 1,
+          dots: true,
+          arrows: true,
         },
       },
       {
@@ -40,6 +43,8 @@ const Myworks = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: true,
+          arrows: false,
         },
       },
     ],
