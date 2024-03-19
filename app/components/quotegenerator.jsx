@@ -1,5 +1,5 @@
 import React from "react";
-import quotepic from "../../public/quotepic.png";
+import quotepic from "../../public/quotepic.PNG";
 import { BsArrowRight, BsEye } from "react-icons/bs";
 import jssvg from "../../public/javascript.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";

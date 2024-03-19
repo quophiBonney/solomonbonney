@@ -1,5 +1,5 @@
 import React from "react";
-import buildbridge from "../../public/buildbridge.png";
+import buildbridge from "../../public/buildbridge.PNG";
 import { BsArrowRight, BsEye } from "react-icons/bs";
 import jssvg from "../../public/javascript.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";
