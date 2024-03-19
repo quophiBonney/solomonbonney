@@ -2,8 +2,9 @@ import React from "react";
 import jssvg from "../../public/javascript.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";
 import reactsvg from "../../public/react-svg.svg";
-import csssvg from "../../public/css-svg.svg";
-import vitesvg from "../../public/vite-svg.svg";
+import mongodbsvg from "../../public/mongodb-svgrepo-com.svg";
+import nextjssvg from "../../public/nextjs-fill-svgrepo-com.svg";
+import reduxsvg from "../../public/redux-svg.svg";
 import Image from "next/image";
 const Experience = () => {
   return (
@@ -18,25 +19,35 @@ const Experience = () => {
             <h1 className="fs-1 fw-bold me-2">15+</h1>
             <p className="p text-uppercase">PROJECTS COMPLETED</p>
           </div>
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 flex-fill h-100 d-flex py-2 mb-4">
-            <Image
-              src={csssvg}
-              alt="an svg for css"
-              className="img-fluid tech-used m-2"
-            />
-            <Image
-              src={vitesvg}
-              alt="an svg for vite"
-              className="img-fluid tech-used m-2"
-            />
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 flex-fill h-100 d-flex py-2 mb-4 mt-2">
             <Image
               src={bootstrapsvg}
               alt="an svg for bootstrap"
+              className="img-fluid bootstrap-svg m-2"
+            />
+            <Image
+              src={jssvg}
+              alt="an svg for javascript"
               className="img-fluid tech-used m-2"
             />
             <Image
               src={reactsvg}
               alt="an svg for react"
+              className="img-fluid tech-used m-2"
+            />
+            <Image
+              src={reduxsvg}
+              alt="an svg for redux"
+              className="img-fluid tech-used m-2"
+            />
+            <Image
+              src={mongodbsvg}
+              alt="an svg for mongodb"
+              className="img-fluid tech-used m-2"
+            />
+            <Image
+              src={nextjssvg}
+              alt="an svg for nextjs"
               className="img-fluid tech-used m-2"
             />
           </div>

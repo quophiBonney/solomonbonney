@@ -28,7 +28,7 @@ const testimonial = () => {
                   className="px-3 text-center mt-3 mb-3 text-light"
                   width={100}
                 >
-                  <p className="p">
+                  <p className="p text-black">
                     <BiSolidQuoteLeft size={40} className="me-2" />
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, laudantium. Lorem ipsum dolor sit amet consectetur
@@ -41,10 +41,12 @@ const testimonial = () => {
                     src={mypic}
                     alt="Emmlink Technology"
                   />
-                  <h4 className="h-4 mt-3 fw-bold">Emmlink Technology</h4>
+                  <h4 className="h-4 mt-3 fw-bold text-black">
+                    Emmlink Technology
+                  </h4>
                 </div>
                 <div className="px-3 text-center mt-3 mb-3" width={100}>
-                  <p className="p">
+                  <p className="p text-black">
                     <BiSolidQuoteLeft size={40} className="me-2" />
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, laudantium. Lorem ipsum dolor sit amet consectetur
@@ -57,10 +59,10 @@ const testimonial = () => {
                     src={mypic}
                     alt="Emmlink Technology"
                   />
-                  <h4 className="h-4 mt-3 fw-bold">PH Logistics</h4>
+                  <h4 className="h-4 mt-3 fw-bold text-black">PH Logistics</h4>
                 </div>
                 <div className="px-3 text-center mt-3 mb-3" width={100}>
-                  <p className="p">
+                  <p className="p text-black">
                     <BiSolidQuoteLeft size={40} className="me-2" />
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, laudantium. Lorem ipsum dolor sit amet consectetur
@@ -73,10 +75,10 @@ const testimonial = () => {
                     src={mypic}
                     alt="Emmlink Technology"
                   />
-                  <h4 className="h-4 mt-3 fw-bold">BuildBridge</h4>
+                  <h4 className="h-4 mt-3 fw-bold text-black">BuildBridge</h4>
                 </div>
                 <div className="px-3 text-center mt-3 mb-3" width={100}>
-                  <p className="p">
+                  <p className="p text-black">
                     <BiSolidQuoteLeft size={40} className="me-2" />
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, laudantium. Lorem ipsum dolor sit amet consectetur
@@ -89,7 +91,9 @@ const testimonial = () => {
                     src={mypic}
                     alt="Emmlink Technology"
                   />
-                  <h4 className="h-4 mt-3 fw-bold">Paradise Realty</h4>
+                  <h4 className="h-4 mt-3 fw-bold text-black">
+                    Paradise Realty
+                  </h4>
                 </div>
               </AwesomeSlider>
             </div>

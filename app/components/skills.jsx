@@ -3,14 +3,14 @@ import Image from "next/image";
 import htmlsvg from "../../public/html-svg.svg";
 import csssvg from "../../public/css-svg.svg";
 import javascriptsvg from "../../public/javascript.svg";
-import jquerysvg from "../../public/jquery-svgrepo-com.svg";
+import nodejssvg from "../../public/nodejs-logo-svgrepo-com.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";
 import phpsvg from "../../public/php-svgrepo-com.svg";
 import mysqlsvg from "../../public/mysql-svg.svg";
 import reactnativesvg from "../../public/react-native-svg.svg";
 import reactsvg from "../../public/react-svg.svg";
 import reduxsvg from "../../public/redux-svg.svg";
-import firebasesvg from "../../public/firebase-svg.svg";
+import mongodbsvg from "../../public/mongodb-svgrepo-com.svg";
 import wordpresssvg from "../../public/wordpress-svgrepo-com.svg";
 const Skills = () => {
   return (
@@ -27,7 +27,7 @@ const Skills = () => {
                     className="img-fluid mb-4"
                     alt="an svg for HTML"
                   />
-                  <h4 className="h-4 text-light ">HTML5</h4>
+                  <h4 className="h-4 text-black">HTML5</h4>
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@ const Skills = () => {
                     className="img-fluid mb-4"
                     alt="an svg for CSS"
                   />
-                  <h4 className="h-4 text-light ">CSS3</h4>
+                  <h4 className="h-4 text-black">CSS3</h4>
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ const Skills = () => {
                     className="img-fluid mb-4"
                     alt="an svg for JavaScript"
                   />
-                  <h4 className="h-4 text-light ">JavaScript</h4>
+                  <h4 className="h-4 text-black">JavaScript</h4>
                 </div>
               </div>
             </div>
@@ -59,11 +59,11 @@ const Skills = () => {
               <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mypic mt-5">
                   <Image
-                    src={jquerysvg}
+                    src={nodejssvg}
                     className="img-fluid mb-4"
-                    alt="an svg for jquery"
+                    alt="an svg for Node Js"
                   />
-                  <h4 className="h-4 text-light ">JQuery</h4>
+                  <h4 className="h-4 text-black">NodeJs</h4>
                 </div>
               </div>
             </div>
@@ -75,7 +75,7 @@ const Skills = () => {
                     className="img-fluid mb-4"
                     alt="an svg for Bootstrap"
                   />
-                  <h4 className="h-4 text-light ">Bootstrap</h4>
+                  <h4 className="h-4 text-black">Bootstrap</h4>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ const Skills = () => {
                     className="img-fluid mb-4"
                     alt="an svg for PHP"
                   />
-                  <h4 className="h-4 text-light ">PHP</h4>
+                  <h4 className="h-4 text-black">PHP</h4>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@ const Skills = () => {
                     className="img-fluid react mb-4"
                     alt="an svg for ReactJs"
                   />
-                  <h4 className="h-4 text-light ">ReactJs</h4>
+                  <h4 className="h-4 text-black">ReactJs</h4>
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@ const Skills = () => {
                     className="img-fluid mb-4"
                     alt="an svg for Redux"
                   />
-                  <h4 className="h-4 text-light ">Redux</h4>
+                  <h4 className="h-4 text-black">Redux</h4>
                 </div>
               </div>
             </div>
@@ -123,7 +123,7 @@ const Skills = () => {
                     className="img-fluid mb-4 react"
                     alt="an svg for React Native"
                   />
-                  <h4 className="h-4 text-light ">React Native</h4>
+                  <h4 className="h-4 text-black">React Native</h4>
                 </div>
               </div>
             </div>
@@ -135,7 +135,7 @@ const Skills = () => {
                     className="img-fluid mb-4"
                     alt="an svg for MySQL"
                   />
-                  <h4 className="h-4 text-light ">MySQL</h4>
+                  <h4 className="h-4 text-black">MySQL</h4>
                 </div>
               </div>
             </div>
@@ -147,7 +147,7 @@ const Skills = () => {
                     className="img-fluid mb-4"
                     alt="an svg for WordPress"
                   />
-                  <h4 className="h-4 text-light ">WordPress</h4>
+                  <h4 className="h-4 text-black">WordPress</h4>
                 </div>
               </div>
             </div>
@@ -155,11 +155,11 @@ const Skills = () => {
               <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mypic mt-5">
                   <Image
-                    src={firebasesvg}
+                    src={mongodbsvg}
                     className="img-fluid mb-4"
-                    alt="an svg for Firebase"
+                    alt="an svg for Mongodb"
                   />
-                  <h4 className="h-4 text-light ">Firebase</h4>
+                  <h4 className="h-4 text-black">MongoDB</h4>
                 </div>
               </div>
             </div>

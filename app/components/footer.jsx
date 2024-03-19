@@ -53,7 +53,7 @@ const Footer = () => {
                 <BsYoutube size={30} className="" />
               </Link>
             </div>
-            <p className="p">Copyright &copy; 2022- 2024</p>
+            <p className="p">Copyright &copy; 2022 - 2024</p>
           </div>
         </div>
       </div>

@@ -85,7 +85,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className="form-group mb-3">
-                    <label htmlFor="last name" className="text-light mt-2">
+                    <label htmlFor="last name" className="text-light mt-3">
                       Last Name<sup className="text-danger p">*</sup>
                     </label>
                     <br />

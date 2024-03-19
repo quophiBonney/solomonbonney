@@ -20,6 +20,7 @@ const Faqs = () => {
   return (
     <div className="container-fluid" id="faqs">
       <div className="container">
+        <br />
         <h2 className="h-2 mb-4">FAQs</h2>
         <div className="row">
           <div className="col-12">
