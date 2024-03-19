@@ -15,12 +15,12 @@ import wordpresssvg from "../../public/wordpress-svgrepo-com.svg";
 const Skills = () => {
   return (
     <>
-      <div className="container-fluid" id="skills">
+      <div className="container-fluid space-out" id="skills">
         <div className="container">
-          <h2 className="h-2 py-3">My Skills</h2>
+          <h2 className="h-2 project-title">My Skills</h2>
           <div className="row mb-5">
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-5">
-              <div className="card bg-secondary shadow px-3 skill-card text-center">
+              <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mypic mt-5">
                   <Image
                     src={htmlsvg}
@@ -32,7 +32,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-4">
-              <div className="card bg-secondary shadow px-3 skill-card text-center">
+              <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mypic mt-5">
                   <Image
                     src={csssvg}
@@ -44,7 +44,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-4">
-              <div className="card bg-secondary shadow px-3 skill-card text-center">
+              <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mypic mt-5">
                   <Image
                     src={javascriptsvg}
@@ -56,7 +56,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-4">
-              <div className="card bg-secondary shadow px-3 skill-card text-center">
+              <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mypic mt-5">
                   <Image
                     src={jquerysvg}
@@ -68,7 +68,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-4">
-              <div className="card bg-secondary shadow px-3 skill-card text-center">
+              <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mypic mt-5">
                   <Image
                     src={bootstrapsvg}
@@ -80,7 +80,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-4">
-              <div className="card bg-secondary shadow px-3 skill-card text-center">
+              <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mypic mt-5">
                   <Image
                     src={phpsvg}
@@ -92,7 +92,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-4">
-              <div className="card bg-secondary shadow px-3 skill-card text-center">
+              <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mt-5 mypic">
                   <Image
                     src={reactsvg}
@@ -104,7 +104,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-4">
-              <div className="card bg-secondary shadow px-3 skill-card text-center">
+              <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mypic mt-5">
                   <Image
                     src={reduxsvg}
@@ -116,7 +116,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-4">
-              <div className="card bg-secondary shadow px-3 skill-card text-center">
+              <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mt-5">
                   <Image
                     src={reactnativesvg}
@@ -128,7 +128,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-4">
-              <div className="card bg-secondary shadow px-3 skill-card text-center">
+              <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mypic mt-5">
                   <Image
                     src={mysqlsvg}
@@ -140,7 +140,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-4">
-              <div className="card bg-secondary shadow px-3 skill-card text-center">
+              <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mypic mt-5">
                   <Image
                     src={wordpresssvg}
@@ -152,7 +152,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-4">
-              <div className="card bg-secondary shadow px-3 skill-card text-center">
+              <div className="card shadow px-3 skill-card text-center">
                 <div className="m-2 mypic mt-5">
                   <Image
                     src={firebasesvg}

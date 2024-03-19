@@ -5,6 +5,9 @@ import YTubevideo from "./ytubevideo";
 import PHLogistics from "./phlogistics";
 import EmmlinkTech from "./emmlinktech";
 import EmmlinkCCTV from "./emmlinkcctv";
+import BuildBridge from "./buildbrige";
+import Bosy from "./bosy";
+import QuoteGenerator from "./quotegenerator";
 const Myworks = () => {
   const settings = {
     dots: true,
@@ -44,14 +47,25 @@ const Myworks = () => {
   return (
     <div className="container-fluid" id="projects">
       <div className="container">
+        <br />
+        <h2 className="h-2 project-title">Projects</h2>
+        <p className="p">Below are some of my projects completed and ongoing</p>
         <div className="row">
-          <h2 className="h-2 text-light">Projects</h2>
           <Slider {...settings}>
             <>
               <EmmlinkCCTV />
             </>
             <>
+              <BuildBridge />
+            </>
+            <>
+              <Bosy />
+            </>
+            <>
               <EmmlinkTech />
+            </>
+            <>
+              <QuoteGenerator />
             </>
             <>
               <Sonobocard />

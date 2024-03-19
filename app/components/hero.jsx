@@ -28,7 +28,7 @@ const Hero = () => {
           style={{ overflow: "hidden" }}
         >
           <p className="p mb-3 animate__animated animate__rollIn space-out">
-            Hi👋, I'm Solomon Kofi Bonney
+            Hi👋, I am Solomon Kofi Bonney
           </p>
           <h1 className="h-1 mb-3 text-primaryanimate__animated animate__bounce">
             Passionate {text} <Cursor />

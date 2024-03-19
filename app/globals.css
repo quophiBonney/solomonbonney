@@ -81,9 +81,11 @@
 }
 /* Skills Styling */
 #skills {
-  background: #eaf1f1;
+  background: #fff;
 }
-
+.skill-card {
+  background-color: #331c52 !important;
+}
 .skill-card:hover {
   cursor: pointer;
   opacity: 0.7;
@@ -105,7 +107,11 @@
 }
 /* Projects Stlying */
 #projects {
-  background: #331c52;
+  background: #eaf1f1;
+}
+.project-title {
+  border-left: 5px solid #291c3a;
+  border-left-style: double;
 }
 .tech-used {
   width: 35px;
@@ -116,7 +122,7 @@ ul.slick-dots li button {
   border-radius: 50px;
 }
 .project-card {
-  background: rgba(255, 255, 255, 0.1) !important;
+  background: rgba(255, 255, 255, 0.4) !important;
   margin-right: 20px;
   color: #fff !important;
   margin-bottom: 10px;
@@ -129,6 +135,10 @@ ul.slick-dots li button {
   background: #eaf1f1;
 }
 /* Testimonial */
+.awssld__content {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border-radius: 10px;
+}
 .testimonial-img {
   border-radius: 100px;
   width: 100px !important;

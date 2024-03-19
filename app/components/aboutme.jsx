@@ -28,7 +28,7 @@ const Aboutme = () => {
             data-aos-delay="100"
             data-aos-duration="1000"
           >
-            <h2 className="h-2 mt-5">About Me</h2>
+            <h2 className="h-2 mt-5 project-title">About Me</h2>
             <p className="p">
               👋 Hi there! I am Solomon Kofi Bonney, an alumnus of IPMC College
               & Technology. 💪💻 As a hardworking and passionate software

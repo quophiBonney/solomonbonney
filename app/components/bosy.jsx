@@ -1,5 +1,5 @@
 import React from "react";
-import phlogistics from "../../public/phlogistics.png";
+import bosy from "../../public/bosy.png";
 import { BsArrowRight, BsEye } from "react-icons/bs";
 import jssvg from "../../public/javascript.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";
@@ -9,16 +9,14 @@ import csssvg from "../../public/css-svg.svg";
 import vitesvg from "../../public/vite-svg.svg";
 import Image from "next/image";
 import Link from "next/link";
-const PHLogistics = () => {
+const Bosy = () => {
   return (
-    <div className="col-12">
+    <div className="col-12 mb-5">
       <div className="card shadow border-0 project-card">
-        <Image src={phlogistics} alt="" className="img-fluid card-img-top" />
+        <Image src={bosy} alt="" className="img-fluid card-img-top" />
         <div className="px-3 mt-3">
-          <h5 className="h-4 fw-bold text-uppercase text-black">
-            PH Logistics Ghana
-          </h5>
-          <div className="px-1 d-flex">
+          <h5 className="h-4 fw-bold text-uppercase text-black">Bosy</h5>
+          <div className="d-flex">
             <Image
               src={csssvg}
               alt="an svg for css"
@@ -58,4 +56,4 @@ const PHLogistics = () => {
   );
 };
 
-export default PHLogistics;
+export default Bosy;

@@ -15,7 +15,9 @@ const EmmlinkTech = () => {
       <div className="card shadow border-0 project-card">
         <Image src={emmlinktech} alt="" className="img-fluid card-img-top" />
         <div className="px-3 mt-3">
-          <p className="h-4 fw-bold text-uppercase">PH Logistics Ghana</p>
+          <h5 className="h-4 fw-bold text-uppercase text-black">
+            Emmlink Technology
+          </h5>
           <div className="d-flex">
             <Image
               src={csssvg}
@@ -45,7 +47,7 @@ const EmmlinkTech = () => {
           </div>
           <Link
             href=""
-            className="btn btn-primary text-light text-decoration-none mt-3 mb-4"
+            className="btn btn-primary text-light text-decoration-none mt-3 mb-4 w-100"
             target="_blank"
           >
             View Demo <BsEye />
