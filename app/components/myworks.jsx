@@ -11,6 +11,7 @@ import QuoteGenerator from "./quotegenerator";
 import BTube from "./btube";
 import SBInstitute from "./sbinstitute";
 import BridgeSolar from "./bridgesolar";
+import Keepak from "./keepak";
 const Myworks = () => {
   const settings = {
     dots: true,
@@ -67,6 +68,7 @@ const Myworks = () => {
             <EmmlinkCCTV />
             <BridgeSolar />
             <QuoteGenerator />
+            <Keepak />
             <SBInstitute />
             <Sonobocard />
             <PHLogistics />
