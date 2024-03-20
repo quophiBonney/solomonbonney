@@ -1,5 +1,5 @@
 import React from "react";
-import bridgesolar from "../../public/bridge-solar.PNG";
+import bridgesolar from "../../public/bridge-solar.png";
 import { BsArrowRight, BsEye } from "react-icons/bs";
 import jssvg from "../../public/javascript.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";

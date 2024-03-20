@@ -1,5 +1,5 @@
 import React from "react";
-import sbinstitute from "../../public/skb_institute.PNG";
+import sbinstitute from "../../public/skb_institute.png";
 import { BsArrowRight, BsEye } from "react-icons/bs";
 import jssvg from "../../public/javascript.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";

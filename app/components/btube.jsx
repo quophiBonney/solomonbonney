@@ -1,5 +1,5 @@
 import React from "react";
-import btube from "../../public/btube.PNG";
+import btube from "../../public/btube.png";
 import { BsArrowRight, BsEye } from "react-icons/bs";
 import jssvg from "../../public/javascript.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";

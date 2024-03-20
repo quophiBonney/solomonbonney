@@ -1,5 +1,5 @@
 import React from "react";
-import keepak from "../../public/keepak.PNG";
+import keepak from "../../public/keepak.png";
 import { BsArrowRight, BsEye } from "react-icons/bs";
 import jssvg from "../../public/javascript.svg";
 import bootstrapsvg from "../../public/bootstrap-svg.svg";
