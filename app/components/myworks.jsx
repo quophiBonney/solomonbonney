@@ -8,6 +8,9 @@ import EmmlinkCCTV from "./emmlinkcctv";
 import BuildBridge from "./buildbrige";
 import Bosy from "./bosy";
 import QuoteGenerator from "./quotegenerator";
+import BTube from "./btube";
+import SBInstitute from "./sbinstitute";
+import BridgeSolar from "./bridgesolar";
 const Myworks = () => {
   const settings = {
     dots: true,
@@ -57,30 +60,17 @@ const Myworks = () => {
         <p className="p">Below are some of my projects completed and ongoing</p>
         <div className="row">
           <Slider {...settings}>
-            <>
-              <EmmlinkCCTV />
-            </>
-            <>
-              <BuildBridge />
-            </>
-            <>
-              <Bosy />
-            </>
-            <>
-              <EmmlinkTech />
-            </>
-            <>
-              <QuoteGenerator />
-            </>
-            <>
-              <Sonobocard />
-            </>
-            <>
-              <PHLogistics />
-            </>
-            <>
-              <YTubevideo />
-            </>
+            <EmmlinkTech />
+            <BuildBridge />
+            <Bosy />
+            <BTube />
+            <EmmlinkCCTV />
+            <BridgeSolar />
+            <QuoteGenerator />
+            <SBInstitute />
+            <Sonobocard />
+            <PHLogistics />
+            <YTubevideo />
           </Slider>
         </div>
       </div>

@@ -17,7 +17,7 @@ const Aboutme = () => {
   return (
     <div
       className="container-fluid px-3"
-      id="about-me"
+      id="aboutme"
       style={{ overflow: "hidden" }}
     >
       <div className="container">

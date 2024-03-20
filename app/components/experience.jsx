@@ -5,15 +5,9 @@ import mongodbsvg from "../../public/mongodb-svgrepo-com.svg";
 import nextjssvg from "../../public/nextjs-fill-svgrepo-com.svg";
 import reduxsvg from "../../public/redux-svg.svg";
 import Image from "next/image";
-import { motion } from "framer-motion";
 const Experience = () => {
   return (
-    <motion.div
-      initial={{ rotate: 0 }}
-      whileInView={{ rotate: 360 }}
-      transition={{ type: "spring", stiffness: 260, damping: 20 }}
-      className="container-fluid shadow experience"
-    >
+    <div className="container-fluid shadow experience">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-light d-flex align-items-center text-center mt-4">
@@ -53,7 +47,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

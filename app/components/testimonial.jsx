@@ -3,6 +3,7 @@ import AwesomeSlider from "react-awesome-slider";
 import { BiSolidQuoteLeft, BiSolidQuoteRight } from "react-icons/bi";
 import Image from "next/image";
 import mypic from "../../public/mypic.webp";
+import emmlinklogo from "../../public/emmlinklogo.jpg";
 const testimonial = () => {
   return (
     <>
@@ -29,70 +30,53 @@ const testimonial = () => {
                   width={100}
                 >
                   <p className="p text-black">
-                    <BiSolidQuoteLeft size={40} className="me-2" />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nesciunt, laudantium. Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Quo, dolorum. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit.
-                    <BiSolidQuoteRight size={40} className="mx-2" />
+                    <BiSolidQuoteLeft size={40} className="me-3" />
+                    Working with <strong>Solomon Bonney</strong> has been an
+                    absolute pleasure. As a professional software developer and
+                    content writer, he brings a rare blend of technical
+                    expertise and creative flair to every project.
+                    <BiSolidQuoteRight size={40} className="mx-3" />
                   </p>
-                  <Image
-                    className="img-fluid testimonial-img"
-                    src={mypic}
-                    alt="Emmlink Technology"
-                  />
                   <h4 className="h-4 mt-3 fw-bold text-black">
-                    Emmlink Technology
+                    Mr Emmanuel - Founder, Emmlink Technology
                   </h4>
                 </div>
                 <div className="px-3 text-center mt-3 mb-3" width={100}>
                   <p className="p text-black">
-                    <BiSolidQuoteLeft size={40} className="me-2" />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nesciunt, laudantium. Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Quo, dolorum. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit.
-                    <BiSolidQuoteRight size={40} className="mx-2" />
+                    <BiSolidQuoteLeft size={40} className="me-3" />
+                    <strong>Solomon Bonney</strong> consistently goes above and
+                    beyond to understand project requirements, communicate
+                    effectively, and produce results that exceed expectations.
+                    <BiSolidQuoteRight size={40} className="mx-3" />
                   </p>
-                  <Image
-                    className="img-fluid testimonial-img"
-                    src={mypic}
-                    alt="Emmlink Technology"
-                  />
-                  <h4 className="h-4 mt-3 fw-bold text-black">PH Logistics</h4>
-                </div>
-                <div className="px-3 text-center mt-3 mb-3" width={100}>
-                  <p className="p text-black">
-                    <BiSolidQuoteLeft size={40} className="me-2" />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nesciunt, laudantium. Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Quo, dolorum. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit.
-                    <BiSolidQuoteRight size={40} className="mx-2" />
-                  </p>
-                  <Image
-                    className="img-fluid testimonial-img"
-                    src={mypic}
-                    alt="Emmlink Technology"
-                  />
-                  <h4 className="h-4 mt-3 fw-bold text-black">BuildBridge</h4>
-                </div>
-                <div className="px-3 text-center mt-3 mb-3" width={100}>
-                  <p className="p text-black">
-                    <BiSolidQuoteLeft size={40} className="me-2" />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nesciunt, laudantium. Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Quo, dolorum. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit.
-                    <BiSolidQuoteRight size={40} className="mx-2" />
-                  </p>
-                  <Image
-                    className="img-fluid testimonial-img"
-                    src={mypic}
-                    alt="Emmlink Technology"
-                  />
                   <h4 className="h-4 mt-3 fw-bold text-black">
-                    Paradise Realty
+                    Mr Joshua - Director, PH Logistics
+                  </h4>
+                </div>
+                <div className="px-3 text-center mt-3 mb-3" width={100}>
+                  <p className="p text-black">
+                    <BiSolidQuoteLeft size={40} className="me-3" />
+                    <strong>Solomon Bonney&#8217;s</strong> proficiency in
+                    coding languages and their knack for crafting captivating
+                    content make them a rare find in today's competitive
+                    landscape
+                    <BiSolidQuoteRight size={40} className="mx-3" />
+                  </p>
+                  <h4 className="h-4 mt-3 fw-bold text-black">
+                    Mr James - Backend Developer, BuildBridge
+                  </h4>
+                </div>
+                <div className="px-3 text-center mt-3 mb-3" width={100}>
+                  <p className="p text-black">
+                    <BiSolidQuoteLeft size={40} className="me-3" />
+                    <strong>Solomon Bonney&#8217;s</strong> writing skills bring
+                    clarity and engagement to every piece of content he produce.
+                    He is a consummate professional who approaches each task
+                    with dedication, innovation, and a keen eye for detail.
+                    <BiSolidQuoteRight size={40} className="mx-3" />
+                  </p>
+                  <h4 className="h-4 mt-3 fw-bold text-black">
+                    Mr Frank - Founder, Paradise Realty
                   </h4>
                 </div>
               </AwesomeSlider>

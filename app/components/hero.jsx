@@ -21,7 +21,7 @@ const Hero = () => {
     loop: true,
   });
   return (
-    <div className="container-fluid px-3 hero-section" id="hero">
+    <div className="container-fluid px-3 hero-section">
       <div className="vh-100 justify-content-center align-items-center row">
         <div
           className="col-xs-12 col-sm-12 col-md-12 col-lg-10 text-center text-light space-out"

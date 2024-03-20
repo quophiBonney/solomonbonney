@@ -33,9 +33,9 @@ function Navigation() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Link
-              to="about-me"
+              to="aboutme"
               smooth
-              offset="-30px"
+              offset={-50}
               duration={500}
               onClick={handleLinkClick}
               className="m-2 navlink text-light text-decoration-none"
@@ -45,7 +45,7 @@ function Navigation() {
             <Link
               to="skills"
               smooth={true}
-              offset={-80}
+              offset={-300}
               duration={500}
               onClick={handleLinkClick}
               className="m-2 navlink text-light text-decoration-none"
@@ -84,7 +84,7 @@ function Navigation() {
             <Link
               to="contact"
               smooth={true}
-              offset={-90}
+              offset={-85}
               duration={500}
               onClick={handleLinkClick}
               className="m-2 navlink text-light text-decoration-none"
