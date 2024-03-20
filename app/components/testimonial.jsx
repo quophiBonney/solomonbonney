@@ -58,7 +58,7 @@ const testimonial = () => {
                     <BiSolidQuoteLeft size={40} className="me-3" />
                     <strong>Solomon Bonney&#8217;s</strong> proficiency in
                     coding languages and their knack for crafting captivating
-                    content make them a rare find in today's competitive
+                    content make them a rare find in today&#8217;s competitive
                     landscape
                     <BiSolidQuoteRight size={40} className="mx-3" />
                   </p>
