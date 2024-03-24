@@ -22,7 +22,7 @@ const Aboutme = () => {
       <div className="container">
         <div className="row">
           <div
-            className="col-xs-12 col-sm-12 col-md-6 col-lg-6  text-black"
+            className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-5 text-black"
             data-aos="slide-right"
             data-aos-delay="100"
             data-aos-duration="1000"
