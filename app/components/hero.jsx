@@ -51,7 +51,7 @@ const Hero = () => {
             </Link>
             <Link
               href="https://wa.me/+233596840018"
-              className="mx-4 text-decoration-none"
+              className="mx-3 text-decoration-none"
               title="whatsapp"
             >
               <BsWhatsapp size={23} className="" />
@@ -65,7 +65,7 @@ const Hero = () => {
             </Link>
             <Link
               href="https://wwww.github.com/quophiBonney"
-              className="text-decoration-none mx-4"
+              className="text-decoration-none mx-3"
               title="github"
             >
               <BsGithub size={22} className="" />
@@ -79,7 +79,7 @@ const Hero = () => {
             </Link>
             <Link
               href="https://wwww.tiktok.com/quophiclef"
-              className="text-decoration-none mx-4"
+              className="text-decoration-none mx-3"
               title="tiktok"
             >
               <BsTiktok size={22} className="" />

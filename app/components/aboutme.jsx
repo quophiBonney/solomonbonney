@@ -77,6 +77,7 @@ const Aboutme = () => {
                 src={solomonbonney}
                 alt="image of solomon bonney from Ghana"
                 className="img-fluid w-100 mypic"
+                style={{ objectFit: "cover" }}
               />
             </div>
           </div>
