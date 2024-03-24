@@ -5,7 +5,7 @@ function RotateAnimation({ children }) {
       initial="hidden"
       whileInView="visible"
       //   viewport={{ once: true }}
-      transition={{ duration: 0.6 }}
+      transition={{ duration: 0.4 }}
       variants={{
         visible: {
           scale: 1,

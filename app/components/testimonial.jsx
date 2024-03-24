@@ -1,9 +1,6 @@
 import React from "react";
 import AwesomeSlider from "react-awesome-slider";
 import { BiSolidQuoteLeft, BiSolidQuoteRight } from "react-icons/bi";
-import Image from "next/image";
-import mypic from "../../public/mypic.webp";
-import emmlinklogo from "../../public/emmlinklogo.jpg";
 const testimonial = () => {
   return (
     <>
@@ -24,7 +21,11 @@ const testimonial = () => {
               data-aos-duration="1000"
               data-aos-delay="100"
             >
-              <AwesomeSlider organicArrows={false} className="my-slider">
+              <AwesomeSlider
+                organicArrows={false}
+                autoplay={true}
+                className="my-slider"
+              >
                 <div
                   className="px-3 text-center mt-3 mb-3 text-light"
                   width={100}

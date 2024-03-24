@@ -41,41 +41,48 @@ const Hero = () => {
             technologies and its architecture. I create, design, build and write
             innovative web solutions and content.
           </p>
-          <div className="mt-4 mb-5">
+          <div className="social-media-icons mt-4 mb-5">
             <Link
-              href="https://wwww.facebook.com"
-              className="text-light text-decoration-none"
+              href="https://wwww.facebook.com/dev%quophi%bonney"
+              className="text-decoration-none"
               title="facebook"
             >
-              <BsFacebook size={20} className="" />
+              <BsFacebook size={23} className="" />
             </Link>
             <Link
               href="https://wa.me/+233596840018"
-              className="text-light mx-3 text-decoration-none"
+              className="mx-4 text-decoration-none"
               title="whatsapp"
             >
-              <BsWhatsapp size={20} className="" />
+              <BsWhatsapp size={23} className="" />
             </Link>
             <Link
               href="https://linkedin.com/in/solomon-bonney-7911a8220"
-              className="text-light text-decoration-none"
+              className="text-decoration-none"
               title="linkedin"
             >
-              <BsLinkedin size={20} className="" />
+              <BsLinkedin size={22} className="" />
             </Link>
             <Link
               href="https://wwww.github.com/quophiBonney"
-              className="text-light text-decoration-none mx-3"
+              className="text-decoration-none mx-4"
               title="github"
             >
-              <BsGithub size={20} className="" />
+              <BsGithub size={22} className="" />
             </Link>
             <Link
               href="https://wwww.youtube.com/programming-with-bonney"
-              className="text-light text-decoration-none"
+              className="text-decoration-none"
               title="youtube"
             >
-              <BsYoutube size={30} className="" />
+              <BsYoutube size={22} className="" />
+            </Link>
+            <Link
+              href="https://wwww.tiktok.com/quophiclef"
+              className="text-decoration-none mx-4"
+              title="tiktok"
+            >
+              <BsTiktok size={22} className="" />
             </Link>
           </div>
         </div>

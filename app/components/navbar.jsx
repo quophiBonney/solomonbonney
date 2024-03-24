@@ -63,15 +63,6 @@ function Navigation() {
               Projects
             </Link>
             <Link
-              to="clones"
-              smooth
-              duration={500}
-              onClick={handleLinkClick}
-              className="m-2 navlink text-light text-decoration-none"
-            >
-              Clones
-            </Link>
-            <Link
               to="testimonial"
               smooth={true}
               offset={-95}

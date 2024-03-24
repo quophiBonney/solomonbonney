@@ -44,7 +44,7 @@ const Bosy = () => {
             />
           </div>
           <Link
-            href=""
+            href="https://bosy.vercel.app"
             className="btn btn-primary text-light text-decoration-none mt-3 mb-4 w-100"
             target="_blank"
           >

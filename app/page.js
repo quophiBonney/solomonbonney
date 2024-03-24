@@ -15,7 +15,6 @@ import Experience from "./components/experience";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
-  const elementRef = useRef(null);
   useEffect(() => {
     AOS.init();
     setTimeout(() => {

@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <>
       <RotateAnimation>
-        <div className="container-fluid space-out" id="skills">
+        <div className="container-fluid mt-5" id="skills">
           <div className="container">
             <h2 className="h-2 project-title">My Skills</h2>
             <div className="row mb-5">

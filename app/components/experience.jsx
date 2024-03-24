@@ -7,7 +7,7 @@ import reduxsvg from "../../public/redux-svg.svg";
 import Image from "next/image";
 const Experience = () => {
   return (
-    <div className="container-fluid shadow experience">
+    <div className="container-fluid shadow experience mb-5">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-light d-flex align-items-center text-center mt-4">

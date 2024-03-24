@@ -47,7 +47,7 @@ const Myworks = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          dots: true,
+          dots: false,
           arrows: false,
         },
       },
