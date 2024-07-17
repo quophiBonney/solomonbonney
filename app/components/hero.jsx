@@ -43,13 +43,6 @@ const Hero = () => {
           </p>
           <div className="social-media-icons mt-4 mb-5">
             <Link
-              href="https://wwww.facebook.com/dev%quophi%bonney"
-              className="text-decoration-none"
-              title="facebook"
-            >
-              <BsFacebook size={23} className="" />
-            </Link>
-            <Link
               href="https://wa.me/+233596840018"
               className="mx-3 text-decoration-none"
               title="whatsapp"
